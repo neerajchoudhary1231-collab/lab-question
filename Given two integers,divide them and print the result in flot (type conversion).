@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int a, b;
+    printf("Enter two integers: ");
+    scanf("%d %d", &a, &b);
+
+    float result = (float)a / b; // type conversion
+    printf("Result = %.2f\n", result);
+    return 0;
+}
